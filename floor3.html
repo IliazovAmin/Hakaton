@@ -1,0 +1,50 @@
+{% block content %}
+
+<html lang="ru">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="case.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'chat/case.css' %}"/>
+    <title>Second</title>
+
+
+
+<body>
+    <a href="index" class="about">Главная</a>
+    <div class="seq">
+        <a class="seqbtn">Для сотрудников</a>
+        <div class="seq-content">
+            <a href="floor">1 этаж</a>
+            <a href="floor2">2 этаж</a>
+        </div>
+    </div>
+    <p id="thirdfloor">3 этаж</p>
+    <!-- <p id="secondfloor">2 этаж</p>
+    <p id="thirdfloor">3 этаж</p> -->
+    <a href="floor2" class="arrowleft"><img src="https://raw.githubusercontent.com/AnastasiaTambolskaya/hak/gh-pages/arrowleft.png" alt="floor"></a>
+
+      <div class="camera">
+    <div class="camera-image1">
+        <img src="https://www.crcv.ucf.edu/projects/real-world/fighting.gif" alt="camera">
+    </div>
+    <div class="camera-image2">
+        <img src="https://www.crcv.ucf.edu/projects/real-world/road-accident.gif" alt="camera">
+    </div>
+    <div class="camera-image3">
+        <img src="https://www.crcv.ucf.edu/projects/real-world/shoplifting.gif" alt="camera">
+    </div>
+    <div class="camera-image4">
+        <img src="https://www.crcv.ucf.edu/projects/real-world/Vandalism.gif" alt="camera">
+    </div>
+</div>
+
+</body>
+
+</html>
+
+{% endblock %}
